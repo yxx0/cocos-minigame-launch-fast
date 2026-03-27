@@ -1,0 +1,13 @@
+<div class="view">
+    <h1 class="title">首屏渲染优化配置</h1>
+    <ui-section header="WechatGame">
+        <ui-checkbox class="checkbox-container" v-model="wechatgame.open"
+            @change="onOpenChange($event.target.value, 'wechatgame')">是否启动优化</ui-checkbox>
+    </ui-section>
+    <ui-section header="bytedance-mini-game">
+        <ui-checkbox class="checkbox-container" v-model="bytedance-mini-game.open"
+            @change="onOpenChange($event.target.value, 'bytedance-mini-game')">是否启动优化</ui-checkbox>
+    </ui-section>
+
+    <ui-button class=" button-save" @click="saveConfig" type="success">保存配置</ui-button>
+</div>

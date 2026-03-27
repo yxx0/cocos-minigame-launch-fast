@@ -1,0 +1,32 @@
+.title {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.checkbox-container {
+    display: block;
+    margin: 20px 0;
+}
+
+.select-container {
+    display: block;
+    width: 200px;
+    margin: 20px 0;
+}
+
+.input-container {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button-save {
+    display: block;
+    width: 180px;
+    height: 60px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 60px;
+    font-size: 26px;
+}

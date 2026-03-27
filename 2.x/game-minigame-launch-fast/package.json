@@ -1,0 +1,19 @@
+{
+  "name": "game-minigame-launch-fast",
+  "version": "1.0.0",
+  "description": "Cocos Creator 游戏首屏渲染插件 适用于2.x版本",
+  "author": "yxx0",
+  "main": "main.js",
+  "main-menu": {
+    "扩展/game-minigame-launch-fast/修改配置": {
+      "message": "game-minigame-launch-fast:open"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "game-minigame-launch-fast",
+    "width": 400,
+    "height": 300
+  }
+}
